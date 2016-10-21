@@ -7,7 +7,7 @@
  *
  * @constructor
  */
-function PayPalMobile() {}
+function PayPalMobile() {
 
 
 /**
@@ -144,3 +144,4 @@ PayPalMobile.prototype.renderProfileSharingUI = function(scopes, completionCallb
  * Plugin setup boilerplate.
  */
 module.exports = new PayPalMobile();
+}
